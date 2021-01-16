@@ -1,0 +1,82 @@
+seqmut-1-9: Which of these is the accumulator variable?
+
+byzo = 'hello world!'
+c = 0
+for x in byzo:
+    z = x + "!"
+    print(z)
+    c = c + 1
+A. byzo
+B. x
+C. z
+D. c
+
+✔️ Yes, this is the accumulator variable. By the end of the program, it will have a full count of how many items are in byzo.
+Multiple Choice (assess_question5_1_1_1)
+
+Not yet graded
+seqmut-1-10: Which of these is the sequence?
+
+cawdra = ['candy', 'daisy', 'pear', 'peach', 'gem', 'crown']
+t = 0
+for elem in cawdra:
+    t = t + len(elem)
+A. cawdra
+B. elem
+C. t
+
+✔️ Yes, this is the sequence that we iterate over.
+Multiple Choice (assess_question5_1_1_2)
+
+Not yet graded
+seqmut-1-11: Which of these is the iterator (loop) variable?
+
+lst = [5, 10, 3, 8, 94, 2, 4, 9]
+num = 0
+for item in lst:
+    num += item
+A. item
+B. lst
+C. num
+
+✔️ Yes, this is the iterator variable. It changes each time but is not the whole sequence itself.
+Multiple Choice (assess_question5_1_1_3)
+
+Not yet graded
+seqmut-1-12: What is the iterator (loop) variable in the following?
+
+rest = ["sleep", 'dormir', 'dormire', "slaap", 'sen', 'yuxu', 'yanam']
+let = ''
+for phrase in rest:
+    let += phrase[0]
+The iterator variable is
+
+phrase
+
+
+
+Good work!
+
+Fill in the Blank (assess_question5_1_1_4)
+
+Not yet graded
+Currently there is a string called str1. Write code to create a list called chars which should contain the characters from str1. Each character in str1 should be its own element in the list chars.
+
+1/16/2021, 6:25:20 PM - 2 of 2
+1
+str1 = "I love python"
+2
+# HINT: what's the accumulator? That should go here.
+3
+​
+4
+chars = []
+5
+for i in str1:
+6
+    chars.append(i)
+ActiveCode (assess_week5_01)
+
+Result	Actual Value	Expected Value	Notes
+Pass	['I',... 'n']	['I',... 'n']	Testing that chars is assigned the correct value.
+You passed: 100.0% of the tests
